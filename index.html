@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        height: 200px;
+        overflow: auto;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 20px 0;
+      }
+      .scroll-background {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREoRGyXmHy_6aIgXYqWHdOT3KjfmnuSyxypw&s");
+        background-attachment: scroll;
+        background-size: cover;
+      }
+      .fixed-background {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREoRGyXmHy_6aIgXYqWHdOT3KjfmnuSyxypw&s");
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .local-background {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREoRGyXmHy_6aIgXYqWHdOT3KjfmnuSyxypw&s");
+        background-attachment: local;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Background Attachment Examples</h1>
+    <div class="container scroll-background">
+      <p>This is a container with a background image set to scroll.</p>
+      <p>Scroll down to see the effect.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+        odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
+        quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
+        mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+        Vestibulum lacinia arcu eget nulla.
+      </p>
+    </div>
+    <div class="container fixed-background">
+      <p>This is a container with a background image set to fixed.</p>
+      <p>Scroll down to see the effect.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+        odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
+        quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
+        mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+        Vestibulum lacinia arcu eget nulla.
+      </p>
+    </div>
+    <div class="container local-background">
+      <p>This is a container with a background image set to local.</p>
+      <p>Scroll down to see the effect.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+        odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
+        quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
+        mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+        Vestibulum lacinia arcu eget nulla.
+      </p>
+    </div>
+  </body>
+</html>

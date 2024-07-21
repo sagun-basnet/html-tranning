@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .inputName {
+        color: red;
+        font-size: 20px;
+      }
+      .heading {
+        font-size: 30px;
+        color: green;
+      }
+      .myDiv .heading {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="myDiv">
+      <h2 class="heading">Hello</h2>
+      <h3>world</h3>
+    </div>
+    <form>
+      <h1 class="heading">Login Form</h1>
+      <input
+        class="inputName"
+        id="myName"
+        type="text"
+        placeholder="Enter name"
+        name="name"
+      />
+      <br />
+      <input
+        class="inputName"
+        type="email"
+        placeholder="Enter Email"
+        name="email"
+      />
+      <br />
+      <input type="number" placeholder="Enter Phone" name="phone" /> <br />
+      <input type="password" placeholder="Enter password" /> <br />
+      <textarea rows="10" cols="20" placeholder="Enter you thought"></textarea>
+      <br />
+
+      <label>Gender: </label>
+      <input type="radio" name="gender" id="" />
+      <label>Male </label>
+      <input type="radio" name="gender" id="" />
+      <label>Female </label>
+      <input type="radio" name="gender" id="" />
+      <label>Others </label>
+      <br />
+
+      <select name="" id="">
+        <option>--Select Contry--</option>
+        <option>Nepal</option>
+        <option>India</option>
+        <option>China</option>
+        <option>USA</option>
+      </select>
+
+      <br />
+      <br />
+      <br />
+      <label for="">Skill:</label>
+      <input type="checkbox" name="" id="" />
+      <label for="">HTML</label>
+      <input type="checkbox" name="" id="" />
+      <label for="">CSS</label>
+      <input type="checkbox" name="" id="" />
+      <label for="">JS</label>
+      <input type="checkbox" name="" id="" />
+      <label for="">React</label>
+      <input type="checkbox" name="" id="" />
+      <label for="">Node</label>
+
+      <button type="submit" class="heading">submit</button>
+    </form>
+  </body>
+</html>

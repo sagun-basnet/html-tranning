@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>asdf</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+      div {
+        border: 2px solid black;
+      }
+      .navBar {
+        height: 5rem;
+      }
+      .bodyDiv {
+        height: calc(100vh - 5rem);
+        display: flex;
+      }
+      .sidebar {
+        width: 10rem;
+      }
+      .content {
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 10rem);
+      }
+      .top,
+      .botton {
+        height: 50%;
+        border: 2px solid blueviolet;
+        display: flex;
+      }
+      .topLeft,
+      .topRight,
+      .bottonLeft,
+      .bottonRight {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navBar">Navbar</div>
+    <div class="bodyDiv">
+      <div class="sidebar">sidebar</div>
+      <div class="content">
+        <div class="top">
+          <div class="topLeft"></div>
+          <div class="topRight"></div>
+        </div>
+        <div class="botton">
+          <div class="bottonLeft"></div>
+          <div class="bottonRight"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

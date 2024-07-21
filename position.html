@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        display: grid;
+        place-items: center;
+        height: 200vh;
+      }
+      .model {
+        border: 2px solid black;
+        height: 28rem;
+        width: 70%;
+        position: relative;
+      }
+      .model .icon {
+        position: absolute;
+        top: 6px;
+        right: 8px;
+        height: 25px;
+        width: 25px;
+        background-color: rgb(188, 19, 19);
+        color: white;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .model .icon:hover {
+        background-color: red;
+      }
+      .myDiv {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        border: 2px solid green;
+      }
+      .myDiv div {
+        left: 10rem;
+        top: 0;
+        height: 20rem;
+        width: 50rem;
+        border: 2px solid black;
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div class="model">
+      <div class="icon">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </div> -->
+
+    <div class="myDiv">
+      <div></div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+      integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
