@@ -1,0 +1,10 @@
+
+:root{
+  --primary-color: black;
+  --secondary-color: blue;
+  --md-containar: 12px;
+  --transition: 12ms ease;
+}
+.myBtn {
+  background-color: var(--primary-color);
+}

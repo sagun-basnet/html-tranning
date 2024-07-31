@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+main {
+  display: flex;
+  height: 100vh;
+  justify-content: start;
+  position: relative;
+}
+.sideBar {
+  height: 100%;
+  width: 20rem;
+  background-color: goldenrod;
+  display: grid;
+  place-items: center;
+  gap: 4rem;
+  margin-left: -16rem;
+  transition: all 0.5s ease-out;
+}
+
+ul li {
+  list-style: none;
+  font-size: 2rem;
+}
+.btns {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.btns svg {
+  font-size: 2rem;
+  cursor: pointer;
+}
+#btnCross {
+  display: none;
+}
